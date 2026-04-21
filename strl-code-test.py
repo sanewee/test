@@ -71,7 +71,7 @@ with tab2:				# 두 번째 탭의 콘텐츠
     # code5
     
     # 주사위 눈 1~6 사이에서 무작위 정수를 생성하여 리스트로 저장
-    n = 1000
+    n = 100
     dice = [random.randint(1, 6) for _ in range(n)]
     
     fig1 = go.Figure()          # 히스토그램을 위한 Figure 생성

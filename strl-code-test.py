@@ -1,6 +1,5 @@
 # code3
 import streamlit as st
-import streamlit as st            	
 import plotly.graph_objects as go    	# Plotly의 그래프 객체 사용
 
 # 사이드바 (슬라이더)

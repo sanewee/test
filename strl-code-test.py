@@ -71,7 +71,7 @@ with tab2:				# 두 번째 탭의 콘텐츠
     # code5
     
     # 주사위 눈 1~6 사이에서 무작위 정수를 생성하여 리스트로 저장
-    n = 100
+    n = 1000
     dice = [random.randint(1, 6) for _ in range(n)]
     
     fig1 = go.Figure()          # 히스토그램을 위한 Figure 생성
@@ -92,7 +92,7 @@ with tab2:				# 두 번째 탭의 콘텐츠
         yaxis_title="빈도",                          # y축 제목(각 눈이 나온 횟수)
         bargap=0.2                      # 막대 간격 설정(0에 가까울수록 연결됨)
     )
-    fig1.update_yaxes(dtick=1)          # y축 눈금을 정수로 맞춤
+    #fig1.update_yaxes(dtick=1)          # y축 눈금을 정수로 맞춤
     
     st.plotly_chart(fig1)   # Streamlit 화면에 Plotly 그래프 그리기
 
